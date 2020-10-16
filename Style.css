@@ -1,8 +1,5 @@
 @charset "utf-8";
 
-body{
-    background-image: url("C:\Users\plisf\Porte-folio\Porte-folio\bgc1.jpeg");
-}
 
 #container {
     display: flex;
@@ -25,4 +22,17 @@ ul.Menu li{
 ul.Menu li a{
     text-decoration: none;
     color: grey;
+}
+div.pres{
+    background-image:
+    width: 980px;
+    height:  980px;
+}
+img.moi{
+    padding-right: 30px;
+}
+
+article.one{
+    text-align: center;
+    width: 48%;
 }
