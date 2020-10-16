@@ -1,0 +1,28 @@
+@charset "utf-8";
+
+body{
+    background-image: url("C:\Users\plisf\Porte-folio\Porte-folio\bgc1.jpeg");
+}
+
+#container {
+    display: flex;
+    width: 100%;
+    border: 3px solid black;
+    flex-direction: column;
+}
+
+ul.Menu{
+    display: inline-block;
+    list-style-type: none;
+    padding: 10px;
+}
+
+ul.Menu li{
+    display: inline-block;
+    list-style-type: none;
+    margin: 10px;
+}
+ul.Menu li a{
+    text-decoration: none;
+    color: grey;
+}
