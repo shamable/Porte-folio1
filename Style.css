@@ -43,13 +43,27 @@ section.un {
     margin: 20px 0 20px 0;
 }
 
-article.one{
-    display: flex;
-    justify-content: center;
-    width: 70%;
-    border: deeppink 3px solid;
-    margin: 20px 0 20px 0;
+section.deux {
+    left: 0;
+    width: 100%;
+    min-width: 980px;
+    height: auto;
+    top:;
+    bottom:;
+    right:;
+    position:;
+    margin-left: 0
 }
+
+
+article.one {
+    width: 871px;
+    pointer-events: none;
+    visibility: inherit;
+    line-height:1.4em;
+    text-align:center;
+    visibility: inherit;
+
 
 .gr {
     display: flex;
