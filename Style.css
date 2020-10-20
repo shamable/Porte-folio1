@@ -4,6 +4,7 @@
     box-sizing: border-box;
 }
 
+
 #container {
     display: flex;
     width: 100%;
@@ -57,12 +58,13 @@ section.deux {
 
 
 article.one {
-    width: 871px;
+    width: 48%;
     pointer-events: none;
     visibility: inherit;
-    line-height:1.4em;
-    text-align:center;
+    line-height: 1.4em;
+    text-align: center;
     visibility: inherit;
+}
 
 
 .gr {
@@ -71,28 +73,46 @@ article.one {
     justify-content: space-between;
     margin-bottom: 15px;
 }
-
-ul.Menu{
+#Menu, #Menu ul{
     display: inline-block;
     list-style-type: none;
     padding: 10px;
 }
-
-ul.Menu li{
-    display: inline-block;
-    list-style-type: none;
-    margin: 10px;
+#Menu{
+    text-align: center;
 }
-ul.Menu li a{
+#Menu li{
+    display: inline-block;
+}
+
+#Menu ul li{
+    display: inherit;
+}
+
+#Menu a{
     text-decoration: none;
+    display: block;
     color: grey;
 }
+#Menu ul{
+    position: absolute;
+    left: -999em;
+    text-align: left;
+    z-index: 1000;
+}
+
+#Menu li:hover ul{
+    left: auto;
+}
+
 div.pres{
     background-image:
     width: 980px;
     height:  980px;
 }
-img.moi{
-    padding-right: 30px;
+
+footer {
+    text-align: center;
 }
+
 
