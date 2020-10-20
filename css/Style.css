@@ -16,12 +16,6 @@ header, main, footer {
     margin-bottom: 30px;
 }
 
-header {
-    display: flex;
-    width: 100%;
-    flex-flow: row wrap;
-    justify-content: center;
-}
 
 .logo, nav {
     width: 35%;
@@ -72,37 +66,6 @@ article.one {
     flex-direction: row;
     justify-content: space-between;
     margin-bottom: 15px;
-}
-#Menu, #Menu ul{
-    display: inline-block;
-    list-style-type: none;
-    padding: 10px;
-}
-#Menu{
-    text-align: center;
-}
-#Menu li{
-    display: inline-block;
-}
-
-#Menu ul li{
-    display: inherit;
-}
-
-#Menu a{
-    text-decoration: none;
-    display: block;
-    color: grey;
-}
-#Menu ul{
-    position: absolute;
-    left: -999em;
-    text-align: left;
-    z-index: 1000;
-}
-
-#Menu li:hover ul{
-    left: auto;
 }
 
 div.pres{
