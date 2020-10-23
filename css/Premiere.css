@@ -1,0 +1,55 @@
+@charset "UTF-8";
+
+#container {
+    display: flex;
+    width: 100%;
+    border: 3px solid black;
+    flex-direction: column;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial;
+    font-size: 17px;
+}
+
+#myVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+}
+h1,h4{
+    color: red;
+}
+
+main {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 70%;
+    border: pink 3px solid;
+    margin: 20px 0 20px 0;
+}
+
+
+section.un {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 70%;
+    border: pink 3px solid;
+    margin: 20px 0 20px 0;
+}

@@ -50,6 +50,9 @@ section.deux {
     margin-left: 0
 }
 
+article {
+    border: 1px solid blue;
+}
 
 article.one {
     width: 48%;
@@ -69,7 +72,6 @@ article.one {
 }
 
 div.pres{
-    background-image:
     width: 980px;
     height:  980px;
 }

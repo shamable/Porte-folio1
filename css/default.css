@@ -11,8 +11,7 @@ ul.dropdown {
 
 ul.dropdown li {
     padding: 5px 10px;
-    background-color: #172322;
-    color: #fff;
+    color: red;
     line-height: 22px;
     white-space: nowrap;
 }
@@ -33,7 +32,7 @@ ul.dropdown li.hover, ul.dropdown li:hover {
 
 ul.dropdown a:link,
 ul.dropdown a:visited {
-    color: #fff;
+    color: red;
     text-decoration: none;
 }
 
@@ -66,7 +65,6 @@ ul.dropdown ul li {
 
 ul.dropdown ul li.first {
     padding-left: 0;
-    background: #172322;
 }
 
 ul.dropdown ul li.last {
@@ -103,7 +101,7 @@ ul.dropdown ul ul {
 
 ul.dropdown ul ul li.first {
     padding-top: 10px;
-    background: #172322 url(../images/box1-top-right.png) 100% 0 no-repeat;
+    background: url(C:\Users\plisf\Porte-folio\Image\gif-arrow.gif) 100% 0 no-repeat;
 }
 
 ul.dropdown form * {
